@@ -11,6 +11,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 public class UserController {
     @Autowired
     private KeycloakRestTemplate restTemplate;
